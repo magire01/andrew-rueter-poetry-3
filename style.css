@@ -1,0 +1,50 @@
+.poem-button {
+    width: 300px;
+    color: black;
+    background-color: white;
+}
+
+.headerDiv {
+    background-color: #0c3963;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.buttonDiv {
+    margin-top: 20px;
+}
+
+.navButton {
+    background-color: #8f0000;
+    color: white;
+    text-align: center;
+    width: 160px;
+    height: 70px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.mainDiv {
+    background-color: #fff7f7;
+    height:100%;
+    width: 90%;
+    margin-top: 20px;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.hero-image {
+    background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&w=1000&q=80");
+    background-color: #dbf9ff; /* Used if the image is unavailable */
+    height: 2000px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
