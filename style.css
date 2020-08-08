@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap');
 .poem-button {
     width: 300px;
     color: black;
@@ -62,7 +63,31 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
+.poem-button {
+    
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    
+    margin-left: 10%;
+    font-family: Varta, serif;
+    font-weight: 1000;
+    font-size: 30px;
+}
 
-  .poem-button {
-      margin-left: 10%
+.entryDiv {
+    margin-left: 14%;
+    text-align: left;
+    font-family: Varta, sans-serif;
+    font-weight: 500;
+}
+
+.post-border {
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
   }
