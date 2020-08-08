@@ -6,6 +6,7 @@
 }
 
 .headerDiv {
+    margin-top: 1%;
     background-color: #0c3963;
     color: white;
     text-align: center;
@@ -38,17 +39,27 @@
     height: 70px;
     font-size: 20px;
     margin-top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: lightblue;
 }
 
 .mainDiv {
-    background-color: #fff7f7;
+    background-color: whitesmoke;
     height:100%;
-    width: 90%;
+    width: 100%;
     margin-top: 20px;
+    padding-bottom: 5%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: lightblue;
 }
 
 h3 {
     color: black;
+    margin-right: 10%;
 }
 
 p {
@@ -72,22 +83,47 @@ p {
     cursor:pointer;
     overflow: hidden;  
     
-    margin-left: 10%;
+    margin-left: 3%;
     font-family: Varta, serif;
     font-weight: 1000;
-    font-size: 30px;
+    font-size: 40px;
+    width: 80%;
 }
 
 .entryDiv {
-    margin-left: 14%;
+    margin-left: 10%;
     text-align: left;
     font-family: Varta, sans-serif;
     font-weight: 500;
+    font-size: 20px;
+    width: 90%;
 }
 
 .post-border {
-    margin: 5px;
+    margin-top: 5%;
+    margin-bottom:5%;
     border-style: solid;
+    border-radius: 10px;
     border-width: 1px;
     border-color: black;
+    width: 85%;
   }
+
+.datePosted {
+    font-size: 12px;
+    display: inline-block;
+}
+
+.blankColWidth {
+    width:100%;
+}
+
+.readPoem {
+    font-size: 10px;
+    margin-left: 2%;
+    padding-top: 4%;
+}
+
+.readPoem p {
+    color: blue;
+}
