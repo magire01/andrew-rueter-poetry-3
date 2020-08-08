@@ -147,6 +147,10 @@ p {
     color: #0c3963;
     font-size: 35px;
 
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 10%;
+
     border-style: solid;
     border-top: #0c3963;
     border-right: #0c3963;
