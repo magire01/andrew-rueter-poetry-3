@@ -71,7 +71,7 @@ p {
     background-color: #dbf9ff; /* Used if the image is unavailable */
     height: 2000px;
     background-position: center; 
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
   }
   
@@ -89,6 +89,21 @@ p {
     font-size: 40px;
     width: 80%;
 }
+
+.movie-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    
+    margin-left: 3%;
+    font-family: Varta, serif;
+    font-weight: 1000;
+    font-size: 40px;
+    width: 80%;
+}
+
 
 .entryDiv {
     margin-left: 10%;
@@ -126,4 +141,15 @@ p {
 
 .readPoem p {
     color: blue;
+}
+
+.page-title {
+    color: #0c3963;
+    font-size: 35px;
+
+    border-style: solid;
+    border-top: #0c3963;
+    border-right: #0c3963;
+    border-width: 4px;
+    border-radius: 10px;
 }
