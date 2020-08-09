@@ -3,22 +3,43 @@ console.log("test");
 //poetry buttons
 
 $("#poetry-nav").on("click", function() {
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+      });
     poetryPage();
 });
 
 $("#story-nav").on("click", function() {
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+      });
     storyPage();
 });
 
 $("#movies-nav").on("click", function() {
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+      });
     moviesPage();
 });
 
 $("#contact-nav").on("click", function() {
+    
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+      });
     contactPage();
 });
 
 $("#about-nav").on("click", function() {
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+      });
     aboutPage();
 });
 
